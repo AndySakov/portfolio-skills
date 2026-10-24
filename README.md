@@ -1,6 +1,6 @@
 # portfolio-skills
 
-Claude skills for Temi's job applications. They work against his portfolio site,
+Agent skills for Temi's job applications. They work against his portfolio site,
 [AndySakov/obafemiteminife](https://github.com/AndySakov/obafemiteminife), which holds the claims, the problem pages
 and the `npm run lens` / `npm run vet` scripts the skills call.
 
@@ -11,25 +11,19 @@ and the `npm run lens` / `npm run vet` scripts the skills call.
 
 ## Install
 
-**Claude Code on a laptop.** This repository is a plugin marketplace:
+With the [skills CLI](https://github.com/vercel-labs/skills), for every project on this machine:
 
-```
-/plugin marketplace add AndySakov/portfolio-skills
-/plugin install portfolio@temi
-```
-
-The skills then run as `/portfolio:portfolio-lens` and `/portfolio:application-vet`, and Claude picks them up on
-its own when a request matches. `/plugin marketplace update temi` pulls new versions.
-
-**claude.ai, Cowork and cloud sessions.** Plugins from a marketplace don't load in cloud sessions, so upload the
-skills to the account instead:
-
-```
-./scripts/zip.sh
+```bash
+npx skills add AndySakov/portfolio-skills -g -a claude-code
 ```
 
-Then upload `dist/portfolio-lens.zip` and `dist/application-vet.zip` under Settings > Capabilities > Skills. Upload
-again after changing a skill.
+The repository is private, so this uses your normal git or GitHub CLI login. Leave out `-g` to install into the
+current project only, and `-a claude-code` to pick agents interactively.
+
+```bash
+npx skills update -g      # pull the latest versions
+npx skills ls -g          # see what's installed
+```
 
 ## Where the skills find the site
 
@@ -46,5 +40,4 @@ They also need these, from 1Password's Automation vault:
 
 ## Changing a skill
 
-Edit `plugins/portfolio/skills/<name>/SKILL.md`, bump `version` in `plugins/portfolio/.claude-plugin/plugin.json`,
-and push. Then update the marketplace on each laptop and re-upload the zip to claude.ai.
+Edit `skills/<name>/SKILL.md` and push, then run `npx skills update -g` on each machine.
