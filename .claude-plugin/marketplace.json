@@ -1,0 +1,14 @@
+{
+  "name": "temi",
+  "description": "Temi's own Claude plugins",
+  "owner": {
+    "name": "Teminife Obafemi"
+  },
+  "plugins": [
+    {
+      "name": "portfolio",
+      "source": "./plugins/portfolio",
+      "description": "Portfolio lenses and application vetting for Temi's job applications"
+    }
+  ]
+}
