@@ -114,7 +114,7 @@ application.
    - `sections`: leave it out for the default order (`toolbox`, `work`, `ledger`): Toolbox, Work (three
      cards and a link to /work/, which holds every write-up, the side projects and the writing), Experience,
      then Contact. On the page these sections are called Problems I've solved, Projects and Essays.
-     Optional extras: `public` (Projects: the Delicious Homes client site, OmniMarket, METIS, Watch, nestjs-neogma and a merged neogma PR; worth adding for
+     Optional extras: `public` (Projects: client work for Delicious Homes, NAPTIN and Stomp, then OmniMarket, METIS, Watch, nestjs-neogma and a merged neogma PR; worth adding for
      Rust, trading, Effect, agent, AI-tooling, NestJS, Neo4j, Cloudflare Workers or end-to-end product roles), `notes` (Writing) and `inflight` (Live demo, for an engineering reader).
      Put `work` first when the role is senior. Add an extra only when it clearly helps this reader; the page
      is meant to be read in under a minute.
