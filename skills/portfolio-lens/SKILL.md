@@ -54,8 +54,8 @@ github.com/AndySakov
 ```
 
 **Never mention the tailoring, the lens, or the open receipts in an application.** Same standing rule as
-`write-as-temi`: never cite the tooling. The recipient finds the "What changed?" bar on their own, and
-that's the charm of it.
+`write-as-temi`: never cite the tooling. The recipient sees the "Made for" line on
+their own, and that's the charm of it.
 
 Use the Teminife Obafemi identity. The site is under that name only, so a lens never goes on an Andy Werner
 application.
