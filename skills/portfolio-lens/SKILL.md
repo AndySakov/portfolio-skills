@@ -105,6 +105,8 @@ application.
    - `lead`: the three postmortems (five at most) a reader for this role should see first, most relevant
      first. Keep employers honest. Two Inverter pieces and one JobStash piece reads better than three of one.
      Only lead with `finding-the-same-product-twice` (Betty, never released) for a Rust-centred role.
+     Lead with `seven-ways-to-sell-a-night` (Delicious Homes, a whole product shipped by coding agents inside
+     guardrails he built) for product engineer, founding engineer, full-stack, AI-native or agent-tooling roles.
    - `hero` (optional): what follows the headline block and its three numbers. `mechanism` adds the live
      sequencing simulation right under them, for readers who will enjoy breaking it (payments, onchain,
      trading, distributed systems, and a technical reader). `toolbox` or `headline` keep the default, where
@@ -113,7 +115,7 @@ application.
    - `sections`: leave it out for the default order (`toolbox`, `work`, `ledger`): Toolbox, Work (three
      cards and a link to /work/, which holds every write-up, the side projects and the writing), Experience,
      then Contact. On the page these sections are called Problems I've solved, Projects and Essays.
-     Optional extras: `public` (Projects: client work for Delicious Homes, NAPTIN and Stomp, then OmniMarket, METIS, Watch, nestjs-neogma and a merged neogma PR; worth adding for
+     Optional extras: `public` (Projects: client work for NAPTIN and Stomp, then OmniMarket, METIS, Watch, nestjs-neogma and a merged neogma PR; worth adding for
      Rust, trading, Effect, agent, AI-tooling, NestJS, Neo4j, Cloudflare Workers or end-to-end product roles), `notes` (Writing) and `inflight` (Live demo, for an engineering reader).
      Put `work` first when the role is senior. Add an extra only when it clearly helps this reader; the page
      is meant to be read in under a minute.
